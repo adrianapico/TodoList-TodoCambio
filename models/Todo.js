@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Todo = require("../models/Todo");
+// const Todo = require("../models/Todo");
 
 const TodoSchema = new mongoose.Schema({
     title: String,
